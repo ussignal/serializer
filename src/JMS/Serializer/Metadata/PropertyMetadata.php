@@ -38,6 +38,7 @@ class PropertyMetadata extends BasePropertyMetadata
     public $xmlKeyAttribute;
     public $xmlAttribute = false;
     public $xmlValue = false;
+    public $xmlPrefix = '';
     public $xmlKeyValuePairs = false;
     public $getter;
     public $setter;
@@ -107,6 +108,7 @@ class PropertyMetadata extends BasePropertyMetadata
             $this->xmlKeyAttribute,
             $this->xmlAttribute,
             $this->xmlValue,
+            $this->xmlPrefix,
             $this->xmlKeyValuePairs,
             $this->getter,
             $this->setter,
@@ -131,6 +133,7 @@ class PropertyMetadata extends BasePropertyMetadata
             $this->xmlKeyAttribute,
             $this->xmlAttribute,
             $this->xmlValue,
+            $this->xmlPrefix,
             $this->xmlKeyValuePairs,
             $this->getter,
             $this->setter,
